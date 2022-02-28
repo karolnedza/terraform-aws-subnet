@@ -2,6 +2,10 @@ output "subnet_id" {
   value = aws_subnet.subnet.id
 }
 
+output "subnet_cidr_block" {
+  value = aws_subnet.subnet.cidr_block
+}
+
 output "subnet_arn" {
   value = aws_subnet.subnet.arn
 }
